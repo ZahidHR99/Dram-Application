@@ -1,0 +1,20 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.wraper{
+    margin: 0 auto;
+    padding: 40px;
+}
+.white{
+    float:left;
+    margin-left: 2px;
+    height: 250px;
+    width: 250px;
+    box-shadow: inset 0px 0px 10px 20px gray;
+    cursor: pointer;
+}
+.white:active{
+    background: linear-gradient(to bottom, black 0%, white 100%);
+}
